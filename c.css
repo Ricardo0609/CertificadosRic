@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    
+}
+:root {
+    --negro: #2e2e2e;
+    --azul: #1291ee;
+  }
+  
+  body{
+      background-color: var(--negro);
+      
+  }
+  header {
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--azul);
+    margin-top: 3vw;
+    font-size: 4vmin;;
+  }
+  
+  .container{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2vw;
+  }
+  
+  .certi{
+      width: 25vw;
+      margin: 2% ;
+      border-radius: 10px;
+      transition: all 1s;
+
+  }
+  .certiclick{
+    width: 60vw;
+      border-radius: 10px;
+      position: fixed;
+      margin-top: -85vw ;
+      z-index: 30;
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width: 1000px) {
+      header {
+        margin-top: 5vw;
+        font-size: 5vmin;;
+      }
+
+      
+      .certi{
+          width: 90vw;
+          margin: 4% 0 0 0% ;
+          border-radius: 5px;
+      }
+      .certiclick{
+        width: 90vw;
+          border-radius: 10px;
+          position: fixed;
+          margin-top: -900vw ;
+          z-index: 30;
+      }
+
+  }
