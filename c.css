@@ -16,7 +16,7 @@
 
     font-family: Arial, Helvetica, sans-serif;
     color:var(--azul);
-    margin-top: 3vw;
+    margin-top: 5vw;
     font-size: 4vmin;;
   }
   
@@ -46,7 +46,7 @@
   
   @media only screen and (min-width: 300px) and (max-width: 1000px) {
       header {
-        margin-top: 5vw;
+        margin-top: 15vw;
         font-size: 5vmin;;
       }
 
@@ -60,7 +60,7 @@
         width: 90vw;
           border-radius: 10px;
           position: fixed;
-          margin-top: -900vw ;
+          margin-top: -700vw ;
           z-index: 30;
       }
 
